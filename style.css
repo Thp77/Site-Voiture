@@ -1,0 +1,39 @@
+.text {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    left: 8%;
+    top: 8%;
+}
+
+.formulaire {
+    position: absolute;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #b9b9ba7a;
+    bottom: 40%;
+    left: 10%;
+}
+
+.search {
+    position: relative;
+    background: #4e974f93;
+    color: #fff;
+}
+
+
+/* FOOTER */
+
+.img-footer {
+    width: 180px;
+}
+
+footer {
+    display: flex;
+    max-width: 550px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
